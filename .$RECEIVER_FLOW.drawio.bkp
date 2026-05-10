@@ -1,0 +1,102 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="QpHtJ7XojWPVGdxFK7jN">
+    <mxGraphModel dx="1582" dy="940" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-3" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="START" vertex="1">
+          <mxGeometry height="80" width="120" x="130" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-5" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="INITIALIZE RECEIVER MKR1310" vertex="1">
+          <mxGeometry height="60" width="171" x="330" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-12" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="COLLECT SENSOR DATA FROM MKR1310 TRANSMITTERS" vertex="1">
+          <mxGeometry height="60" width="216.5" x="307.25" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-11" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572" y="373" />
+              <mxPoint x="572" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-15" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hKkp21XzwNc2sHD_aD0T-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416.20000000000005" y="467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" value="SENSOR DATA RECEIVED" vertex="1">
+          <mxGeometry height="107" width="116" x="357.5" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1" value="NO" vertex="1">
+          <mxGeometry height="26" width="36" x="487" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-42" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hKkp21XzwNc2sHD_aD0T-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="SEND SENSOR DATA TO ESP32&lt;div&gt;MICROCONTROLLER WITH HC-12&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="260.12" x="286.07" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-29" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="CONNECT ESP32&amp;nbsp; WITH BLYNK" vertex="1">
+          <mxGeometry height="60" width="162.5" x="334.26" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-31" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-34" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" value="CONNECTED" vertex="1">
+          <mxGeometry height="97" width="110" x="360.5" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-32" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="688" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="CHECK CREDENTIALS" vertex="1">
+          <mxGeometry height="60" width="158.5" x="545.5" y="768.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-36" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" target="hKkp21XzwNc2sHD_aD0T-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="DISPLAY SENSOR READINGS IN BLYNK DASHBOARD" vertex="1">
+          <mxGeometry height="60" width="206.5" x="312.26" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="END" vertex="1">
+          <mxGeometry height="80" width="120" x="355.5" y="974" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1" value="NO" vertex="1">
+          <mxGeometry height="26" width="36" x="475.5" y="778" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1" value="YES" vertex="1">
+          <mxGeometry height="26" width="42" x="376" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1" value="YES" vertex="1">
+          <mxGeometry height="26" width="42" x="379" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-43" edge="1" parent="1" source="hKkp21XzwNc2sHD_aD0T-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hKkp21XzwNc2sHD_aD0T-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKkp21XzwNc2sHD_aD0T-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="DISPLAY SENSOR DATA IN SERIAL MONITOR" vertex="1">
+          <mxGeometry height="60" width="226.5" x="302.88" y="567" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
