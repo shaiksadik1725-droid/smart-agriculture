@@ -1,14 +1,14 @@
 #define BLYNK_TEMPLATE_ID "TMPL62NLfpaXB"
 #define BLYNK_TEMPLATE_NAME "SMART AGRICULTURE"
-#define BLYNK_AUTH_TOKEN "BZ1oHmOAWSLLHkBPZVZYhRHlRl4z-IhO"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 HardwareSerial MKRSerial(2);
 
-char ssid[] = "HUAWEI_H112_DEA2";
-char pass[] = "17ARQN13NFE";
+char ssid[] = "YOUR_WIFI_SSID";
+char pass[] = "YOUR_WIFI_PASSWORD";
 
 void setup() {
   Serial.begin(115200);
